@@ -1,0 +1,71 @@
+NAME:  PASUMARTHI SATWIK
+ROLL.NO: 19BCS083
+
+Question1::
+	PREORDER    :-  L,K,A,J,B,C,I,H,E,D,F,G
+	INORDER        :-  A,K,B,J,C,L,I,D,E,H,F,G
+	POSTORDER  :- A,B,C,J,K,I,D,E,F,G,H,L
+Question2::
+ (i.)The final tree is :- 
+                                                       15
+                                                    /          \
+                                                12            19
+                                              /       \              \
+                                            3        15            21
+                                              \        /
+                                               6     10
+ (ii.)The given tree is a AVL tree(i.e, height is balanced) 
+
+Question 3::
+     Max nodes=2^(n+1)-1=15
+     Min Nodes=2^(n-1)=4
+	     EXAMPLE:-
+                                                                                          A
+                                                                                    /             \
+                                                                               B                    C 
+                                                                           /       \               /         \
+                                                                         D       E            F           G
+                                                                       /    \     /     \       /    \        /   \
+                                                                      H    I    J     K    L    M   N    O
+                         Internal nodes :- A,B,C,D,E,F,G
+                         Leaf nodes :- H,I,J,K,L,M,N,O
+
+Question4::   ( FALSE )
+	  The first item is not the smallest one.The binary tree that I considered is :
+                                                          15
+                                                         /     \
+                                                       9          23
+                                                   /      \       /
+                                                  3     12   19
+                                                        /            \
+                                                    10              21
+  the above tree is a binary search tree in which the left node values of root are less than the root value and the right node value of the root is greater than the root value
+  the PREORDER for the above tree is 15,9,3,12,10,23,19,21 .Since we can say that the first digit is not the least number of the tree.
+
+Question5::
+  Level Order Traversal for given tree is: 2,3,5,10,8,7,22,11,13,20,24,16
+  Initialarray[ ]={2,3,5,10,8,7,22,11,13,20,24,16}
+
+
+Question6::   The binary search tree is:-
+  
+                                            100
+                                         /          \
+                                     20           150
+                                  /       \              \
+                               10      30           300
+                                                        /
+                                                    200 
+
+Question7::
+               7,5,1,8,3,6,0,9,4,2
+               the binary search tree is 
+            
+                                                    4
+                                               /               \
+                                            1                   8
+                                          /   \               /        \
+                                       0     2            6         9
+                                                  \       /    \
+                                                  3     5     7
+            INORDER:-0,1,2,3,4,5,6,7,8,9   
